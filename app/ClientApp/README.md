@@ -37,12 +37,12 @@ MSBuild version 17.6.8+c70978d4d for .NET<br />
 
 ## Executando a aplicação 
 
-navegue até o diretório app
-cd app
+navegue até o diretório app <br />  
+cd app <br />
 
-execute dotnet run 
+execute dotnet run  <br />
 
-A aplicação estará rodando e pode ser acessada em [App](https://localhost:7129/)
+A aplicação estará rodando e pode ser acessada em [App](https://localhost:7129/) <br />
 
 ## Executando testes unitário e relatórios de cobertura da camada lógica. 
 
