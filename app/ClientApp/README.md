@@ -30,10 +30,10 @@ MSBuild version 17.6.8+c70978d4d for .NET<br />
   npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs <br />
   npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1 <br />
   
-  added 953 packages, and audited 954 packages in 10s
+  added 953 packages, and audited 954 packages in 10s <br />
   
-  107 packages are looking for funding
-    run `npm fund` for details
+  107 packages are looking for funding <br />
+    run `npm fund` for details <br />
 
 ## Executando a aplicação 
 
@@ -46,18 +46,18 @@ A aplicação estará rodando e pode ser acessada em [App](https://localhost:712
 
 ## Executando testes unitário e relatórios de cobertura da camada lógica. 
 
-Usei os testes os seguintes frameworks:
+Usei os testes os seguintes frameworks: 
 
-coverlet.msbuild 
-coverlet.collector
-MSTest.TestFramework
+coverlet.msbuild <br />
+coverlet.collector <br />
+MSTest.TestFramework <br />
 
-Navegue até a pasta ./DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test e execute o comando 
-dotnet test --filter 'FullyQualifiedName!~calculo0cdb.Tests' /p:CollectCoverage=true
+Navegue até a pasta ./DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test e execute o comando  <br />
+dotnet test --filter 'FullyQualifiedName!~calculo0cdb.Tests' /p:CollectCoverage=true <br />
 
 ## Executando os Testes unitários no Angular
 
-Navegue até ./app/ClientApp e execute ng test 
+Navegue até ./app/ClientApp e execute ng test <br />
 
 Usei o [Karma](https://karma-runner.github.io) para executação e relatório dos testes do Angular
 
