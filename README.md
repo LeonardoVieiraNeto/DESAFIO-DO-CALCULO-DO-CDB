@@ -12,7 +12,8 @@ Bootstrap para layout das telas <br />
 
    <b> git clone https://github.com/LeonardoVieiraNeto/DESAFIO-DO-CALCULO-DO-CDB.git </b>
 
-1. Vá até a pasta clonada e execute dotnet build 
+1. Vá até a pasta clonada e execute <br />
+<b>dotnet build</b> 
 
 Exemplo:
 
@@ -38,9 +39,10 @@ MSBuild version 17.6.8+c70978d4d for .NET<br />
 ## Executando a aplicação 
 
 navegue até o diretório app <br />  
-cd app <br />
+<b>cd app </b> <br />
 
-execute dotnet run  <br />
+execute <br />
+<b> dotnet run </b>  <br />
 
 A aplicação estará rodando e pode ser acessada em [App](https://localhost:7129/) <br />
 
@@ -57,7 +59,8 @@ dotnet test --filter 'FullyQualifiedName!~calculo0cdb.Tests' /p:CollectCoverage=
 
 ## Executando os Testes unitários no Angular
 
-Navegue até ./app/ClientApp e execute ng test <br />
+Navegue até ./app/ClientApp e execute  <br /> 
+<b> ng test </b>  <br />
 
 Usei o [Karma](https://karma-runner.github.io) para executação e relatório dos testes do Angular
 
