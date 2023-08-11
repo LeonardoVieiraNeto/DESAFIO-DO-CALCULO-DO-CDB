@@ -1,0 +1,110 @@
+{
+  "calculo-cdb.Logica.dll": {
+    "/home/leonardo/Projetos/B3/calculo-cdb/calculo-cdb.Logica/CdbCalculatorService.cs": {
+      "calculo_cdb.Logica.CdbCalculatorService": {
+        "calculo_cdb.Logica.ResultadoCdbCalculo calculo_cdb.Logica.CdbCalculatorService::ExecutarCalculoCdb(System.Int32,System.Double)": {
+          "Lines": {
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "13": 12,
+            "14": 5,
+            "15": 5,
+            "16": 5,
+            "18": 5,
+            "19": 5,
+            "21": 1,
+            "23": 1,
+            "25": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 89,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 15,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 25,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 15,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 15,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Double calculo_cdb.Logica.CdbCalculatorService::CalcularImposto(System.Int32,System.Double)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "42": 2,
+            "44": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/leonardo/Projetos/B3/calculo-cdb/calculo-cdb.Logica/ResultadoCdbCalculo.cs": {
+      "calculo_cdb.Logica.ResultadoCdbCalculo": {
+        "System.Double calculo_cdb.Logica.ResultadoCdbCalculo::get_ResultadoBruto()": {
+          "Lines": {
+            "5": 2
+          },
+          "Branches": []
+        },
+        "System.Double calculo_cdb.Logica.ResultadoCdbCalculo::get_ResultadoLiquido()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

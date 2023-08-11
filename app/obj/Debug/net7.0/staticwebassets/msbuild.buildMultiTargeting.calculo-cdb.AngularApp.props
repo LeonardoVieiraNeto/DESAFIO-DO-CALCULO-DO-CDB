@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/calculo-cdb.AngularApp.props" />
+</Project>

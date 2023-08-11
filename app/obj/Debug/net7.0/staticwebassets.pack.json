@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/leonardo/Projetos/B3/calculo-cdb/app/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.calculo-cdb.AngularApp.props",
+      "PackagePath": "build\\calculo-cdb.AngularApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.calculo-cdb.AngularApp.props",
+      "PackagePath": "buildMultiTargeting\\calculo-cdb.AngularApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.calculo-cdb.AngularApp.props",
+      "PackagePath": "buildTransitive\\calculo-cdb.AngularApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.calculo-cdb.AngularApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
