@@ -2,9 +2,9 @@
 
 Tecnologias e frameworks usados na solução:
 
-ASP.NET Core and C# para p BackEnd
-Angular and TypeScript para o FrontEnd, [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2
-Bootstrap para layout das telas
+ASP.NET Core and C# para p BackEnd <br />
+Angular and TypeScript para o FrontEnd, [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2 <br />
+Bootstrap para layout das telas <br />
 
 ## Instalação
 
