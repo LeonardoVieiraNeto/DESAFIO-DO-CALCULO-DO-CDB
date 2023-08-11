@@ -16,19 +16,19 @@ Bootstrap para layout das telas <br />
 
 Exemplo:
 
-leonardo@leonardo-Vostro-15-3510:~/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB$ dotnet build 
-MSBuild version 17.6.8+c70978d4d for .NET
-  Determinando os projetos a serem restaurados...
-  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Logica/calculo-cdb.Logica.csproj restaurado (em 93 ms).
-  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/app/calculo-cdb.AngularApp.csproj restaurado (em 193 ms).
-  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test/calculo-cdb.Test.csproj restaurado (em 215 ms).
-  calculo-cdb.Logica -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Logica/bin/Debug/net7.0/calculo-cdb.Logica.dll
-  calculo-cdb.Test -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test/bin/Debug/net7.0/calculo-cdb.Test.dll
-  calculo-cdb.AngularApp -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/app/bin/Debug/net7.0/calculo-cdb.AngularApp.dll
-  v20.5.1
-  Restoring dependencies using 'npm'. This may take several minutes...
-  npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
-  npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+leonardo@leonardo-Vostro-15-3510:~/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB$ dotnet build <br />
+MSBuild version 17.6.8+c70978d4d for .NET<br />
+  Determinando os projetos a serem restaurados... <br />
+  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Logica/calculo-cdb.Logica.csproj restaurado (em 93 ms). <br />
+  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/app/calculo-cdb.AngularApp.csproj restaurado (em 193 ms). <br />
+  /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test/calculo-cdb.Test.csproj restaurado (em 215 ms). <br />
+  calculo-cdb.Logica -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Logica/bin/Debug/net7.0/calculo-cdb.Logica.dll <br />
+  calculo-cdb.Test -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/calculo-cdb.Test/bin/Debug/net7.0/calculo-cdb.Test.dll <br />
+  calculo-cdb.AngularApp -> /home/leonardo/Projetos/B3/DESAFIO-DO-CALCULO-DO-CDB/app/bin/Debug/net7.0/calculo-cdb.AngularApp.dll <br />
+  v20.5.1 <br />
+  Restoring dependencies using 'npm'. This may take several minutes... <br />
+  npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs <br />
+  npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1 <br />
   
   added 953 packages, and audited 954 packages in 10s
   
