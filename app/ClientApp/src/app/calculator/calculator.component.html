@@ -1,0 +1,19 @@
+<h1>Cálculo do CDB</h1>
+<p>Informe um valor monetário positivo, e um prazo em meses maior que 1(um) para resgate da aplicação.</p>
+<div class="form-group mb-4">
+    <label for="valorInicial">Valor</label>
+    <input type="number" [(ngModel)]="valorInicial" class="form-control" id="valorInicial" placeholder="Digite um valor monetário positivo" min="0" step="0.01" required>
+    <div *ngIf="valorInicial == undefined || valorInicial == null || valorInicial == 0" style="color: red;">
+      Digite um um valor monetário positivo.
+    </div>
+  </div>
+  <div class="form-group mb-4">
+    <label for="qtdMeses">Meses</label>
+    <input type="number" [(ngModel)]="qtdMeses" class="form-control" id="qtdMeses" placeholder="Digite o prazo em meses" min="1" required>
+    <div *ngIf="qtdMeses == undefined || qtdMeses == null || qtdMeses <= 0" style="color: red;">
+      Digite um prazo em meses maior que 1(um).
+    </div>
+  </div>
+  <button class="btn btn-primary" (click)="enviarDados()" [disabled]="validarCampos()">Calcular</button>
+<p class="mt-4" aria-live="polite">Resultado Cálculo CDB Bruto: <strong>{{ ResultadoBruto | currency:'BRL':'symbol':'1.2-2' }}</strong></p>
+<p class="mt-4" aria-live="polite">Resultado Cálculo CDB Líquido: <strong>{{ ResultadoLiquido | currency:'BRL':'symbol':'1.2-2' }}</strong></p>
