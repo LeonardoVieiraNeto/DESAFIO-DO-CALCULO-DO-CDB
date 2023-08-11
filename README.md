@@ -10,7 +10,7 @@ Bootstrap para layout das telas <br />
 
 1. Clone o repositório:
 
-   git clone https://github.com/LeonardoVieiraNeto/DESAFIO-DO-CALCULO-DO-CDB.git
+   <b> git clone https://github.com/LeonardoVieiraNeto/DESAFIO-DO-CALCULO-DO-CDB.git </b>
 
 1. Vá até a pasta clonada e execute dotnet build 
 
