@@ -4,6 +4,16 @@ public class CdbCalculatorService : ICdbCalculatorService
 {
     public ResultadoCdbCalculo ExecutarCalculoCdb(int qtdMeses, double ValorInicial)
     {
+        if (ValorInicial <= 0)
+        {
+            throw new ArgumentException("O valor inicial deve ser um valor monetário positivo.");
+        }
+
+        if (qtdMeses <= 1)
+        {
+            throw new ArgumentException("O prazo em meses, deve ser maior que 1(um).");
+        }
+
         var resultados = new List<double>();
         var valorResultadoBruto = 0.0;
 
@@ -20,7 +30,11 @@ public class CdbCalculatorService : ICdbCalculatorService
 
         valorResultadoBruto = resultados[resultados.Count - 1];
 
-        double valorResultadoLiquido = valorResultadoBruto - CalcularImposto(qtdMeses, valorResultadoBruto);
+        var lucro = valorResultadoBruto - ValorInicial;
+
+        var valorImposto = CalcularImposto(qtdMeses, lucro);
+
+        double valorResultadoLiquido = ValorInicial + (lucro - valorImposto);
 
         var result = new ResultadoCdbCalculo { ResultadoBruto = resultados[resultados.Count - 1], ResultadoLiquido = valorResultadoLiquido  };
 
@@ -29,6 +43,16 @@ public class CdbCalculatorService : ICdbCalculatorService
 
     public double CalcularImposto(int qtdMeses, double valorResultadoBruto)
     {
+        if (valorResultadoBruto <= 0)
+        {
+            throw new ArgumentException("O valor do resultado bruto deve ser um valor monetário positivo.");
+        }
+
+        if (qtdMeses <= 1)
+        {
+            throw new ArgumentException("O prazo em meses, deve ser maior que 1(um).");
+        }
+
         double valorImposto = 0.0;
 
         var taxasImposto = new Dictionary<int, double>

@@ -41,3 +41,16 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+bin 
+obj
+.bin/*
+.obj/*
+
+# Ignore compiled output and temporary files
+/app/bin/
+/app/obj/
+/calculo-cdb.Logica/bin/
+/calculo-cdb.Logica/obj/
+/calculo-cdb.Test/bin/
+/calculo-cdb.Test/obj/
