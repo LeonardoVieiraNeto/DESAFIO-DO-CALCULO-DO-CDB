@@ -1,9 +1,10 @@
-import { Component,Inject } from '@angular/core';
+import { Component,Inject, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-calculator-component',
-  templateUrl: './calculator.component.html'
+  templateUrl: './calculator.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CalculatorComponent {
   public ResultadoBruto: number | undefined = 0.0;
@@ -11,7 +12,7 @@ export class CalculatorComponent {
   public valorInicial: number | undefined;
   public qtdMeses: number | undefined;
 
-  constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {}
+  constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string, private cdRef: ChangeDetectorRef) {}
 
     enviarDados() {
       const body = {
@@ -25,6 +26,7 @@ export class CalculatorComponent {
         (data: any) => {
           this.ResultadoBruto = data.resultadoBruto;
           this.ResultadoLiquido = data.resultadoLiquido;
+          this.cdRef.detectChanges(); 
         },
         (error: any) => {
           console.error('Erro:', error);

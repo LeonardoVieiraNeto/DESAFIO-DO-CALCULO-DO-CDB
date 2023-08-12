@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "https://localhost:44487",
-"LaunchCommand": "npm start",
-"WorkingDirectory": "/home/leonardo/Projetos/B3/calculo-cdb/app/ClientApp/",
-"MaxTimeoutInSeconds": "120"
-}
-}
